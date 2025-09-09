@@ -1,7 +1,7 @@
 // linked list is a linear datastructure where elements(nodes) are stored in non contigous memory location
 // each node contains data and a pointer(link) to the next node
 // singly LL,doubly LL, circular LL
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 using namespace std;
 struct Node{
@@ -35,7 +35,7 @@ int main() {
 
 
 // to get input from user
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 using namespace std;
 struct Node{
@@ -71,7 +71,7 @@ int main() {
 }
 
 // to get both size and input from user
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 using namespace std;
 struct Node{
@@ -97,7 +97,8 @@ int main() {
             if(head==NULL){
                 head=newNode;
                 temp=head;
-            }else{
+            }
+            else{
                 temp->next=newNode;
                 temp=newNode;
                 
@@ -111,6 +112,4 @@ int main() {
             temp=temp->next;
         }
         cout<<"Null "<<endl;
-        
-    
 }
